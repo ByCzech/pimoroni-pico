@@ -102,7 +102,7 @@ namespace pimoroni {
       command(reg::GMCTRN1, 14, "\x70\x03\x09\x0A\x09\x06\x2B\x34\x41\x07\x12\x14\x28\x2E");
     }
 
-    command(reg::INVON);   // set inversion mode
+    // command(reg::INVON);   // set inversion mode
     command(reg::SLPOUT);  // leave sleep mode
     command(reg::DISPON);  // turn display on
 
